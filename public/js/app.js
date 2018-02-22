@@ -26,5 +26,5 @@
 
 
 $("#aahh").submit(function(){
-        document.write(JSON.stringify($.post("content").value));
+        document.write(($.post("content").value));
     });

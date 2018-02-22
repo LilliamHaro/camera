@@ -21,3 +21,10 @@
 //        }
 //
 // );
+
+
+
+
+$("#aahh").submit(function(){
+        document.write(JSON.stringify($.post("content").value));
+    });
